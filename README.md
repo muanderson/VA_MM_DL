@@ -82,7 +82,7 @@ python train_index.py \
 
 ---
 
-## ⚙️ Optional Arguments
+## Optional Arguments
 
 Both training scripts accept the following optional arguments:
 
