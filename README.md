@@ -6,7 +6,7 @@ Repo for code relating to the paper _"Enhancing Post-Treatment Visual Acuity Pre
 
 ---
 
-## 🚀 Setup
+## Setup
 
 To set up the environment for this project:
 
@@ -32,7 +32,7 @@ Your environment is now ready to use.
 
 ---
 
-## 📂 Script Structure
+## Script Structure
 
 The repository organizes the training and evaluation scripts for each dataset within dedicated subdirectories under the `scripts` folder:
 
@@ -41,7 +41,7 @@ The repository organizes the training and evaluation scripts for each dataset wi
 
 ---
 
-## 🔬 Model Training Scripts
+## Model Training Scripts
 
 The main training scripts are located in the respective dataset folders:
 
@@ -50,7 +50,7 @@ The main training scripts are located in the respective dataset folders:
 
 ---
 
-## 🏃‍♂️ Running the Training Scripts
+## Running the Training Scripts
 
 First, activate your conda environment:
 
@@ -98,7 +98,7 @@ Refer to the individual training script (`train.py` for DIME, `train_index.py` f
 
 ---
 
-## 📊 Model Evaluation Scripts
+## Model Evaluation Scripts
 
 The main k-fold evaluation scripts are located in the respective dataset folders:
 
@@ -107,7 +107,7 @@ The main k-fold evaluation scripts are located in the respective dataset folders
 
 ---
 
-## 📈 Running Evaluation Scripts
+## Running Evaluation Scripts
 
 Navigate to the specific dataset's script directory and run the evaluation script:
 
@@ -135,7 +135,7 @@ python evaluate.py \
 
 ---
 
-## 🏆 Model Weights
+## Model Weights
 
 Pre-trained model weights are stored in the `model_weights/` directory with subdirectories for each dataset:
 
@@ -170,7 +170,7 @@ index_model.load_state_dict(torch.load('model_weights/INDEX_weights/best_model_f
 
 ---
 
-## 📜 License
+## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
